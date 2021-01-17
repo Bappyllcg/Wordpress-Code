@@ -22,3 +22,4 @@ function custom_product_column( $column, $post_id ) {
 
 		}
 }
+
