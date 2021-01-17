@@ -1,3 +1,5 @@
+<?php
+
 // Add the custom columns to the Product post type:
 add_filter( 'manage_YOUR-POST-TYPE_posts_columns', 'set_custom_edit_product_columns' );
 function set_custom_edit_product_columns($columns) {
@@ -23,3 +25,4 @@ function custom_product_column( $column, $post_id ) {
 		}
 }
 
+?>
